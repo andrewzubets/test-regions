@@ -11,6 +11,10 @@
 - php artisan migrate (create database? yes)
 - php artisan db:seed
 
+Апи для регионов:
+- post: /api/regions body: {"name":"region name"} Response (200): {Объект региона с id}.
+- delete: /api/regions/{id} body: n/a Response (200):  n/a
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
